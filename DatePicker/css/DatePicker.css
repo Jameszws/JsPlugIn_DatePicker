@@ -1,0 +1,189 @@
+﻿/*
+ *  instructions ：DatePicker  
+ *  date : 2015-04-17
+ *  author : 张文书
+ *  Last Modified 
+ *  By 张文书
+ */
+
+.datepicker {
+    width: 240px;
+    height: 228px;
+    border: 1px solid #B1D2EC;
+    z-index: 99999;
+    background-color: white;
+    position: absolute;
+}
+
+.datepicker-head {
+    width: 100%;
+    height: 35px;
+    line-height: 26px;
+}
+
+.datepicker-head-div {
+    width: 108px;
+    margin: 3px 5px;
+    height: 26px;
+    float: left;
+    border: 1px solid #B1D2EC;
+}
+
+.datepicker-head-left {
+    height: 26px;
+    width: 26px;
+    float: left;
+    border-right: 1px solid #B1D2EC;
+    cursor: pointer;
+}
+
+.datepicker-head-txtarea {
+    width: 54px;
+    height: 26px;
+    float: left;
+    text-align: center;
+}
+
+.datepicker-head-txt {
+    width: 45px;
+    margin: 0px;
+    padding: 0px;
+    height: 20px;
+    border: 0px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+.datepicker-img-left {
+    width: 7px;
+    height: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+    float: left;
+    background-image: url("../img/left.png");
+    background-repeat: no-repeat;
+    border: 0px;
+    cursor: pointer;
+}
+
+.datepicker-head-right {
+    height: 26px;
+    width: 26px;
+    float: right;
+    border-left: 1px solid #B1D2EC;
+    cursor: pointer;
+}
+
+.datepicker-img-right {
+    width: 7px;
+    height: 10px;
+    margin-top: 8px;
+    float: right;
+    margin-right: 10px;
+    background-image: url("../img/right.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.datepicker-up {
+    width: 10px;
+    height: 7px;
+    margin-top: 8px;
+    margin-right: 10px;
+    float: right;
+    background-image: url("../img/up.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.datepicker-down {
+    width: 10px;
+    height: 7px;
+    margin-top: 8px;
+    margin-right: 10px;
+    float: right;
+    background-image: url("../img/down.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.datepicker-body {
+    width: 230px;
+    margin-left: 5px;
+    height: 166px;
+}
+
+    .datepicker-body table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        .datepicker-body table thead {
+            background-color: #DEECF8;
+        }
+
+            .datepicker-body table thead tr {
+                border: 1px solid #B1D2EC;
+                text-align: center;
+                height: 26px;
+            }
+
+        .datepicker-body table tbody td {
+            border: 1px solid #B1D2EC;
+            text-align: center;
+            cursor: pointer;
+            height: 20px;
+        }
+
+.datepicker-dateselected {
+    background-color: #b9dbf9 !important;
+}
+
+.datepicker-datedisabled {
+    background-color: #e9f0f0 !important;
+    cursor: default !important;
+}
+
+.datepicker-notcurrentmonth {
+    background-color: #ececec;
+}
+
+.datepicker-foot {
+    width: 230px;
+    height: 26px;
+    margin-left: 5px;
+    margin-top: 2px;
+    line-height: 26px;
+}
+
+.datepicker-op {
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    float: right;
+    border: 1px solid #B1D2EC;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+
+/****************(皮肤一  begin)*******************/
+
+.datepicker-skin1-input{
+	width: 160px;
+	height: 22px;
+	border: 1px solid #B1D2EC;
+	text-indent: 6px;
+	background: url(../img/icon1.png) no-repeat 135px;
+}
+
+/*设置周六周日字体颜色*/
+.datepicker-skin1-weekendfont {
+    color: #FF9927;
+}
+
+/****************(皮肤一  end)*******************/
